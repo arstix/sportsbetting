@@ -1,0 +1,119 @@
+@media screen and (max-width: 480px) {
+    div.stars{
+        display: none;
+    }
+    p.buttonText{
+        display: none;
+    }
+    .div__listview{
+     grid-template-columns: 5fr 30fr 25fr 35fr 5fr !important;
+     grid-column-gap: 10px;
+     border: 5px solid white !important;
+    margin: 0px 15px 0px !important
+    }
+    .div__listview:hover{
+        transform: scale(1.02)
+       }
+    .listview__button > button {
+        width: 40px !important;
+    }
+    p.review{
+     margin-right: 5px;
+     font-size: 10px;
+    }
+    .imageSpecs{
+     height: 20px !important;
+     margin-left: 10px  !important;
+ }
+ .description{
+     font-size: 10px;
+ }
+ .readReview{
+    margin-left: 0px !important;
+}
+   }
+.readReview{
+    margin-left: 10px;
+}
+.div__listview {
+    border: 15px solid white;
+    border-radius: 10px;
+    margin: 0px 52px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 15px;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 4fr 18fr 18fr 35fr 25fr;
+}
+
+.div__listview:hover {
+    transform: scale(1.02); 
+}
+
+.carousel_view{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(5, 1fr);
+}
+.carousel_listview {
+    border: 15px solid white;
+    border-radius: 10px;
+    margin: 0px 10px 0px; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 15px;
+    justify-content: space-around;
+    display: grid;
+    overflow: hidden;
+}
+.carousel_listview:hover {
+   transform: scale(1.02)
+}
+
+
+
+.listview__index {
+    align-items: center;
+    display: flex;
+}
+
+.listview__image {
+    align-items: center;
+    display: flex;
+}
+.imageSpecs{
+    height: 30px;
+}
+.review_tag{
+    display: flex;
+    align-items : center
+}
+
+.listview__starratings {
+    display: flex;
+    align-items: center;
+}
+
+.listview__button {
+    display: flex;
+    align-items: center;
+}
+.listview__description {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.listview__button > button {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #F44236;
+    background: #F44236;
+    color: white;
+    border-radius: 6px;
+    width: 180px;
+    height: 47px;
+    font-size: 16px;
+    font-weight: 500;
+}
+

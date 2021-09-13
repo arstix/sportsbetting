@@ -1,0 +1,130 @@
+/* On screens that are 600px */
+@media screen and (max-width: 480px) {
+  div.main__toggleview{
+      display: none;
+  }
+  div.main__sort{
+    display: none;
+}
+.conditionalSorter{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+.sorter{
+  color:black
+}
+}
+
+.title__div {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.red__line {
+    border: 3px solid red;
+    background: red;
+    max-width: 70px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+input:checked + .slider {
+  background-color: #838283;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.canada__img {
+  width: 53px;
+  height: 39px;
+}
+
+.main__title {
+  display: flex;
+  align-items: center;
+}
+
+.main__title > h1 {
+  display: flex;
+  align-items: center;
+}
+
+.main__title > img {
+  margin-right: 18px;
+}
+
+.main__toggleview {
+  display: flex;
+  align-items: center;
+}
+
+.main__toggleview > a {
+  margin-right: 18px;
+  color: #484949;
+  font-weight: 500;
+}
+
+.main__sort {
+  display: flex;
+  align-items: center;
+}
+
+.main__sort > a {
+  color: #484949;
+  font-weight: 500;
+}
+
